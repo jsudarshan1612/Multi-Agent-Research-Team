@@ -1,190 +1,101 @@
-Autonomous Multi-Agent Research Intelligence System
+# Autonomous Multi-Agent Research Intelligence System  
+## Final Year Project Documentation  
+**Author:** Sudarshan Jadhav  
 
-Project Documentation
+---
 
-Author: Sudarshan Jadhav
-
-1. Introduction
-
-Artificial Intelligence is rapidly transforming how research, data analysis, and decision-making are performed. Traditional research processes are often manual, time-consuming, and prone to inconsistency.
-
+## 1. Introduction
 This project presents an Autonomous Multi-Agent Research Intelligence System where multiple AI agents collaborate to perform research tasks automatically. Each agent has a specialized role, forming a virtual research team.
 
-2. Problem Statement
+---
 
-Conventional chatbots and research tools have several limitations:
+## 2. Problem Statement
+Traditional research tools and chatbots have limitations:
+- Single-agent architecture
+- Lack of validation
+- No memory of past tasks
+- Limited handling of complex queries
 
-Single-model architecture without collaboration
+This project solves these issues using a collaborative, memory-driven multi-agent system.
 
-Lack of validation leads to inaccurate outputs
+---
 
-No memory or learning from previous tasks
+## 3. Objectives
+- Build a multi-agent AI architecture
+- Automate research workflows
+- Improve accuracy using validation
+- Implement memory-based learning
+- Generate structured reports
 
-Limited ability to handle complex research queries
+---
 
-This project addresses these issues by implementing a collaborative, memory-driven, and self-correcting multi-agent system.
+## 4. System Architecture
 
-3. Objectives
+### Core Agents
+1. Task Manager Agent
+2. Research Agent
+3. Critic Agent
+4. Synthesizer Agent
+5. Writer Agent
+6. Memory Manager
 
-The main objectives of this project are:
+---
 
-Design a multi-agent AI architecture.
+## 5. Workflow
+1. User submits query
+2. Task Manager assigns tasks
+3. Research agent gathers data
+4. Critic agent validates
+5. Synthesizer merges findings
+6. Writer generates final report
+7. Memory stores results
 
-Automate research and report generation.
+---
 
-Implement agent collaboration and communication.
+## 6. Technologies Used
+### Backend
+- Node.js / Python
+- Express / FastAPI
 
-Introduce memory-based learning.
+### AI
+- OpenAI API
+- LangChain (optional)
 
-Create a scalable and intelligent research assistant.
+### Database
+- MongoDB
 
-4. System Architecture
-Core Agents
+---
 
-The system consists of multiple specialized agents:
+## 7. Key Features
+- Multi-agent collaboration
+- Self-correcting research cycles
+- Memory-driven intelligence
+- Automated report generation
 
-Task Manager Agent
+---
 
-Receives user queries.
+## 8. Unique Aspects
+- Adaptive multi-agent architecture
+- Dynamic role allocation
+- Context-aware research workflow
 
-Assigns tasks to agents.
+---
 
-Research Agent
+## 9. Applications
+- Academic research
+- Business intelligence
+- Technical documentation
+- Legal and medical research
 
-Collects relevant information.
+---
 
-Critic Agent
+## 10. Future Enhancements
+- Real-time web data
+- Voice-based queries
+- Domain-specific agents
+- Mobile support
 
-Validates accuracy and reliability.
+---
 
-Synthesizer Agent
-
-Combines and structures data.
-
-Writer Agent
-
-Generates final research report.
-
-Memory Manager
-
-Stores previous results.
-
-Improves future outputs.
-
-5. System Workflow
-
-User submits a research query.
-
-Task Manager distributes the task.
-
-Research Agent gathers data.
-
-Critic Agent validates sources.
-
-Synthesizer merges findings.
-
-Writer generates final report.
-
-Memory Manager stores knowledge.
-
-6. Technologies Used
-Backend
-
-Node.js / Python
-
-Express / FastAPI
-
-AI Integration
-
-OpenAI API
-
-LangChain (optional)
-
-Database
-
-MongoDB
-
-Frontend (Optional)
-
-React
-
-Tailwind CSS
-
-7. Key Features
-
-Multi-agent collaboration
-
-Self-correcting research cycles
-
-Memory-driven intelligence
-
-Automated report generation
-
-Dynamic agent role allocation
-
-8. Unique Aspects
-
-Adaptive multi-agent architecture
-
-Self-improving memory system
-
-Context-aware research workflow
-
-Autonomous AI research team simulation
-
-9. Modules
-
-User Interface Module
-
-Agent Controller Module
-
-Research Module
-
-Validation Module
-
-Report Generation Module
-
-Memory Module
-
-10. Testing Strategy
-Functional Testing
-
-Query input testing
-
-Agent interaction testing
-
-Output validation
-
-Performance Testing
-
-Response time measurement
-
-System efficiency analysis
-
-11. Applications
-
-Academic research assistance
-
-Business intelligence
-
-Legal and technical research
-
-Automated documentation systems
-
-12. Future Enhancements
-
-Real-time web data integration
-
-Voice-based research queries
-
-Domain-specific expert agents
-
-Multi-language support
-
-Mobile application
-
-13. Conclusion
-
-The Autonomous Multi-Agent Research Intelligence System demonstrates how multiple AI agents can collaborate to automate complex research tasks. The system improves accuracy, scalability, and efficiency compared to traditional single-agent chatbots.
-
-This project represents a step toward fully autonomous AI research assistants capable of solving real-world problems.
+## 11. Conclusion
+This system demonstrates how multiple AI agents can collaborate to automate complex research tasks with improved accuracy and scalability.
