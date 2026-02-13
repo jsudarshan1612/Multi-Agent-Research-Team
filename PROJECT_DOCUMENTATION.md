@@ -1,140 +1,68 @@
-# 🧠 Autonomous Multi-Agent Research Intelligence System
-
-![AI](https://img.shields.io/badge/AI-Multi--Agent-blueviolet)
-![Architecture](https://img.shields.io/badge/Architecture-Agentic-green)
-![Backend](https://img.shields.io/badge/Backend-Node.js-yellow)
-![Database](https://img.shields.io/badge/Database-MongoDB-brightgreen)
-![Status](https://img.shields.io/badge/Status-Research--Prototype-orange)
+# Project Documentation
+## Autonomous Multi-Agent Research Intelligence System
 
 ---
 
-## 📌 Project Overview
-The **Autonomous Multi-Agent Research Intelligence System** is an advanced AI platform where multiple intelligent agents collaborate, critique, synthesize, and generate high-quality research outputs.
-
-Unlike traditional chatbots, this system uses a **self-correcting, memory-driven multi-agent architecture** that adapts its research strategy over time.
+## 1. Introduction
+This project implements a multi-agent AI system where specialized agents collaborate to perform automated research tasks.
 
 ---
 
-## 🚀 Core Features
-- 🧠 Multi-agent collaboration system
-- 🔍 Autonomous research agent
-- 🛡️ Critic agent for fact validation
-- 🔗 Synthesizer agent for knowledge fusion
-- ✍️ Writer agent for structured reports
-- 🧾 Long-term and short-term agent memory
-- 🔄 Self-correcting research cycles
-- ⚙️ Dynamic role allocation between agents
+## 2. Problem Statement
+Traditional research is manual and time-consuming.  
+This system automates research using intelligent AI agents.
 
 ---
 
-## 🧠 Intelligent Agent Roles
-
-| Agent | Function |
-|------|---------|
-| Research Agent | Collects relevant data from sources |
-| Critic Agent | Validates accuracy and reliability |
-| Synthesizer Agent | Combines and structures information |
-| Writer Agent | Generates final research report |
-| Memory Manager | Stores and retrieves past knowledge |
+## 3. Objectives
+- Build a multi-agent system
+- Automate research workflows
+- Improve information accuracy
+- Generate structured reports
 
 ---
 
-## 🏗️ System Architecture
-
-```
-User Query
-    │
-    ▼
-Task Manager Agent
-    │
-    ├── Research Agent
-    │       │
-    │       ▼
-    ├── Critic Agent
-    │       │
-    │       ▼
-    ├── Synthesizer Agent
-    │       │
-    │       ▼
-    └── Writer Agent
-            │
-            ▼
-     Final Research Report
-```
+## 4. System Architecture
+Agents in the system:
+1. Research Agent
+2. Critic Agent
+3. Synthesizer Agent
+4. Writer Agent
+5. Memory Manager
 
 ---
 
-## 🛠️ Technology Stack
+## 5. Workflow
+1. User submits query
+2. Research agent collects data
+3. Critic agent validates results
+4. Synthesizer merges findings
+5. Writer produces final report
+6. Memory stores knowledge
 
-### Backend
+---
+
+## 6. Technologies Used
 - Node.js / Python
-- Express / FastAPI
-
-### AI & Agents
 - OpenAI API
-- LangChain (optional)
-- Agent memory system
-
-### Database
 - MongoDB
 
-### Frontend (Optional)
-- React
-- Tailwind CSS
+---
+
+## 7. Unique Features
+- Self-improving memory system
+- Dynamic role allocation
+- Multi-agent collaboration
+- Automated research refinement
 
 ---
 
-## ⚙️ Installation
-
-### 1. Clone the repository
-```bash
-git clone https://github.com/jsudarshan1612/Multi-Agent-Research-Team.git
-```
-
-### 2. Navigate into the folder
-```bash
-cd Multi-Agent-Research-Team
-```
-
-### 3. Install dependencies
-```bash
-npm install
-```
-
-### 4. Create environment file
-Create a `.env` file:
-
-```
-OPENAI_API_KEY=your_api_key_here
-```
-
-### 5. Run the application
-```bash
-npm start
-```
+## 8. Future Enhancements
+- Real-time web data
+- Voice interface
+- Expert domain agents
 
 ---
 
-## 🧪 Advanced Capabilities
-- Self-improving agent memory
-- Dynamic agent role switching
-- Multi-cycle research refinement
-- Context-aware output generation
-
----
-
-## 📌 Future Scope
-- Real-time web data integration
-- Voice-based research interface
-- Domain-specific expert agents
-- Multi-language research capability
-
----
-
-## 👨‍💻 Author
-**Sudarshan Jadhav**  
-
----
-
-## 📄 License
-MIT License
+## 9. Conclusion
+The project demonstrates a scalable, intelligent, multi-agent AI architecture capable of automating complex research tasks.
