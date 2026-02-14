@@ -1,4 +1,4 @@
-# 🧠Multi-Agent Research Intelligence System
+# 🧠 Autonomous Multi-Agent Research Intelligence System
 
 ![AI](https://img.shields.io/badge/AI-Multi--Agent-blueviolet)
 ![Architecture](https://img.shields.io/badge/Architecture-Agentic-green)
